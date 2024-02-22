@@ -11,6 +11,8 @@
 		28AC7CF32B8783B0007781DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC7CF22B8783B0007781DB /* ContentView.swift */; };
 		28AC7CF52B8783B2007781DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AC7CF42B8783B2007781DB /* Assets.xcassets */; };
 		28AC7CF82B8783B2007781DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AC7CF72B8783B2007781DB /* Preview Assets.xcassets */; };
+		28AC7CFF2B878524007781DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC7CFE2B878523007781DB /* User.swift */; };
+		28AC7D012B8785D1007781DB /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC7D002B8785D1007781DB /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		28AC7CF22B8783B0007781DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28AC7CF42B8783B2007781DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AC7CF72B8783B2007781DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28AC7CFE2B878523007781DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28AC7D002B8785D1007781DB /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				28AC7CF02B8783B0007781DB /* SwiftDataProjectApp.swift */,
+				28AC7D002B8785D1007781DB /* EditUserView.swift */,
 				28AC7CF22B8783B0007781DB /* ContentView.swift */,
+				28AC7CFE2B878523007781DB /* User.swift */,
 				28AC7CF42B8783B2007781DB /* Assets.xcassets */,
 				28AC7CF62B8783B2007781DB /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AC7CF32B8783B0007781DB /* ContentView.swift in Sources */,
+				28AC7D012B8785D1007781DB /* EditUserView.swift in Sources */,
 				28AC7CF12B8783B0007781DB /* SwiftDataProjectApp.swift in Sources */,
+				28AC7CFF2B878524007781DB /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
